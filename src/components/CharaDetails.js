@@ -20,7 +20,7 @@ const CharaDetails = (props) =>
                             <div className="text-decoration">Gender  : {props.chara.gender}</div>
                             
                         </div>
-                        <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+                        <p className="lead">Data By : rickandmortyapi.com</p>
                         <div className="d-flex">
                             <Link className="btn btn-outline-dark flex-shrink-0" to="/">
                                 <i className="bi-cart-fill me-1"></i>

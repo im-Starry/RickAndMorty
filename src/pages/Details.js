@@ -15,8 +15,6 @@ const Details = () =>
         fetch(`https://rickandmortyapi.com/api/character/${params.charaId}`)
         .then(response => response.json())
         .then(data => setChara(data));
-
-
     }, 
     
      // eslint-disable-next-line
