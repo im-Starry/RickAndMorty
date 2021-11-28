@@ -32,7 +32,7 @@ const Charas = () => {
       <div className="container text-light px-4 px-lg-5 mt-5">
         <h2>Search character</h2>
         <form onSubmit={handleSubmit}>
-          <input typt="text" className="form-control" onChange={handleChange} value={text}/>
+          <input typt="text" className="form-control bg-dark text-light" placeholder="Search Character" onChange={handleChange} value={text}/>
         </form>
 
         <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center my-4"> 
